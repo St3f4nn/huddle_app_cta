@@ -23,11 +23,6 @@ body {
   color: #fff;
   line-height: 1;
   min-height: 100vh;
-  background-image: url("../assets/images/body/bg-desktop.svg");
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-size: contain;
-  background-attachment: fixed;
   display: flex;
   flex-direction: column;
 }
@@ -44,7 +39,7 @@ img {
 /* Utilities */
 
 .container {
-  padding: 0 80px;
+  padding: 0 8rem;
   max-width: 1440px;
   margin: 0 auto;
 }

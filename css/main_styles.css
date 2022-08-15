@@ -1,3 +1,28 @@
+/* Overlay image */
+
+.overlay {
+  width: 90%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.overlay-desktop-img {
+  height: 100%;
+}
+
+.overlay-desktop-img-el {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay-mobile-img-el {
+  display: none;
+}
+
 /* Header */
 
 .header {
@@ -5,7 +30,7 @@
 }
 
 .header-logo {
-  width: 20rem;
+  max-width: 20rem;
 }
 
 /* Main section */
